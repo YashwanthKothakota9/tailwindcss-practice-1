@@ -29,7 +29,7 @@ const FilterInput = ({ label, placeholder, className }: any) => {
 
 export const Filters = () => {
   return (
-    <div className="bg-[#F4F6F9] rounded-xl p-6">
+    <div className="bg-[#F4F6F9] rounded-xl p-6 space-y-4">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-x-2">
           <FilterButton active>Hotel</FilterButton>
